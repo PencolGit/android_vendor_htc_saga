@@ -49,18 +49,18 @@ PRODUCT_COPY_FILES += \
 
 # All the firmware for saga
 PRODUCT_COPY_FILES += \
-    vendor/htc/saga/proprietary/default.acdb:/system/firmware/default.acdb \
-    vendor/htc/saga/proprietary/default_mfg.acdb:/system/firmware/default_mfg.acdb \
-    vendor/htc/saga/proprietary/default_org.acdb:/system/firmware/default_org.acdb \
-    vendor/htc/saga/proprietary/default_org_nel.acdb:/system/firmware/default_org_nel.acdb \
-    vendor/htc/saga/proprietary/yamato_pfp.fw:/system/firmware/yamato_pfp.fw \
-    vendor/htc/saga/proprietary/yamato_pm4.fw:/system/firmware/yamato_pm4.fw \
-    vendor/htc/saga/proprietary/vidc_720p_command_control.fw:/system/firmware/vidc_720p_command_control.fw \
-    vendor/htc/saga/proprietary/vidc_720p_h263_dec_mc.fw:/system/firmware/vidc_720p_h263_dec_mc.fw \
-    vendor/htc/saga/proprietary/vidc_720p_h264_dec_mc.fw:/system/firmware/vidc_720p_h264_dec_mc.fw \
-    vendor/htc/saga/proprietary/vidc_720p_h264_enc_mc.fw:/system/firmware/vidc_720p_h264_enc_mc.fw.fw \
-    vendor/htc/saga/proprietary/vidc_720p_mp2_dec_mc.fw:/system/firmware/vidc_720p_mp2_dec_mc.fw \
-    vendor/htc/saga/proprietary/vidc_720p_mp4_dec_mc.fw:/system/firmware/vidc_720p_mp4_dec_mc.fw \
-    vendor/htc/saga/proprietary/vidc_720p_mp4_enc_mc.fw:/system/firmware/vidc_720p_mp4_enc_mc.fw \
-    vendor/htc/saga/proprietary/vidc_720p_vc1_dec_mc.fw:/system/firmware/vidc_720p_vc1_dec_mc.fw \
-    vendor/htc/saga/proprietary/bcm4329.hcd:/system/firmware/bcm4329.hcd
+    vendor/htc/saga/proprietary/default.acdb:/system/etc/firmware/default.acdb \
+    vendor/htc/saga/proprietary/default_mfg.acdb:/system/etc/firmware/default_mfg.acdb \
+    vendor/htc/saga/proprietary/default_org.acdb:/system/etc/firmware/default_org.acdb \
+    vendor/htc/saga/proprietary/default_org_nel.acdb:/system/etc/firmware/default_org_nel.acdb \
+    vendor/htc/saga/proprietary/yamato_pfp.fw:/system/etc/firmware/yamato_pfp.fw \
+    vendor/htc/saga/proprietary/yamato_pm4.fw:/system/etc/firmware/yamato_pm4.fw \
+    vendor/htc/saga/proprietary/vidc_720p_command_control.fw:/system/etc/firmware/vidc_720p_command_control.fw \
+    vendor/htc/saga/proprietary/vidc_720p_h263_dec_mc.fw:/system/etc/firmware/vidc_720p_h263_dec_mc.fw \
+    vendor/htc/saga/proprietary/vidc_720p_h264_dec_mc.fw:/system/etc/firmware/vidc_720p_h264_dec_mc.fw \
+    vendor/htc/saga/proprietary/vidc_720p_h264_enc_mc.fw:/system/etc/firmware/vidc_720p_h264_enc_mc.fw.fw \
+    vendor/htc/saga/proprietary/vidc_720p_mp2_dec_mc.fw:/system/etc/firmware/vidc_720p_mp2_dec_mc.fw \
+    vendor/htc/saga/proprietary/vidc_720p_mp4_dec_mc.fw:/system/etc/firmware/vidc_720p_mp4_dec_mc.fw \
+    vendor/htc/saga/proprietary/vidc_720p_mp4_enc_mc.fw:/system/etc/firmware/vidc_720p_mp4_enc_mc.fw \
+    vendor/htc/saga/proprietary/vidc_720p_vc1_dec_mc.fw:/system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
+    vendor/htc/saga/proprietary/bcm4329.hcd:/system/etc/firmware/bcm4329.hcd
